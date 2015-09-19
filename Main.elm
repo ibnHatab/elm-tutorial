@@ -1,4 +1,10 @@
+
+import Text exposing (..)
+import Color exposing (..)
 import Graphics.Element exposing (..)
+import Graphics.Collage exposing (..)
+
+import Shapes exposing (..)
 
 main =
-  show "Howdy world!"
+  collage 200 200 [ diamond green ]

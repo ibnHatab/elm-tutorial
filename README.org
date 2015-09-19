@@ -1,0 +1,13 @@
+
+
+
+* Refresh in browser
+  : chrome-reload-watch.sh M\a\in *.elm
+
+** Debug it
+  : xwininfo -root -tree
+  : xwininfo -root -tree |grep `printf 0x%x 20972504`
+
+* Deploying static page
+  https://neocities.org/
+  http://funny-cats.neocities.org/

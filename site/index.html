@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello IPFS!</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script type="text/javascript" src="elm.js"></script>
+</head>
+<body>
+  <h1>Hello IPFS!</h1>
+  <div id="cats" style="width:50%; height:400px;"></div>
+</body>
+<script type="text/javascript">
+    var stamperDiv = document.getElementById('cats');
+    Elm.embed(Elm.RandomGifsMain, stamperDiv);
+  </script>
+</html>
